@@ -82,8 +82,11 @@ data(lt_result_1) = lo_compare_tool->return_changes( ).
 *   value_old  = 'BAR'
 *   value_new  = 'FOO'
 * )
+```
 
 ### Compare two work areas
+
+```abap
 data wa_mara_old type mara.
 data wa_mara_new like wa_mara_old.
 
@@ -136,3 +139,4 @@ data(lt_result_2) = lo_compare_tool->return_changes( ).
 *   value_old  = '1'
 *   value_new  = '2'
 * )
+```
